@@ -25,5 +25,5 @@ jobs:
       - name: HyperExecute
         shell: bash
         run: |
-          ./hyperexecute --user ${{ github.event.inputs.username }} --key ${{ github.event.inputs.accessKey }}  --config .autosplit.yaml
+          ./hyperexecute --user ${{ github.event.inputs.username }} --key ${{ github.event.inputs.accessKey }}  --config .autosplit.yml
           echo "Your tests are succuessfully completed"
